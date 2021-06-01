@@ -1,0 +1,122 @@
+\BOOKMARK [0][-]{section*.1}{Abstract}{}% 1
+\BOOKMARK [0][-]{section*.2}{Declaration}{}% 2
+\BOOKMARK [0][-]{section*.3}{Acknowledgements}{}% 3
+\BOOKMARK [0][-]{section*.4}{List of Publications}{}% 4
+\BOOKMARK [0][-]{section*.5}{Notation \046 Abbreviations}{}% 5
+\BOOKMARK [0][-]{section*.6}{Table of Contents}{}% 6
+\BOOKMARK [0][-]{section*.7}{List of Figures}{}% 7
+\BOOKMARK [0][-]{section*.8}{List of Tables}{}% 8
+\BOOKMARK [0][-]{chapter.1}{General Introduction}{}% 9
+\BOOKMARK [1][-]{section.1.1}{The fungi}{chapter.1}% 10
+\BOOKMARK [1][-]{section.1.2}{Fungal growth}{chapter.1}% 11
+\BOOKMARK [2][-]{subsection.1.2.1}{Growth in submerged batch culture}{section.1.2}% 12
+\BOOKMARK [1][-]{section.1.3}{Industrial fermentation of fungi}{chapter.1}% 13
+\BOOKMARK [2][-]{subsection.1.3.1}{Submerged industrial processes}{section.1.3}% 14
+\BOOKMARK [2][-]{subsection.1.3.2}{Solid-state processes}{section.1.3}% 15
+\BOOKMARK [1][-]{section.1.4}{Influence of process variables on morphology and metabolite production in submerged fermentations}{chapter.1}% 16
+\BOOKMARK [2][-]{subsection.1.4.1}{Inoculum concentration}{section.1.4}% 17
+\BOOKMARK [2][-]{subsection.1.4.2}{Mechanical agitation}{section.1.4}% 18
+\BOOKMARK [2][-]{subsection.1.4.3}{Carbon and nitrogen sources}{section.1.4}% 19
+\BOOKMARK [2][-]{subsection.1.4.4}{Culture pH}{section.1.4}% 20
+\BOOKMARK [2][-]{subsection.1.4.5}{Supplementation with metal ions}{section.1.4}% 21
+\BOOKMARK [2][-]{subsection.1.4.6}{Supplementation with surface active agents and polymers}{section.1.4}% 22
+\BOOKMARK [2][-]{subsection.1.4.7}{Significance of branching}{section.1.4}% 23
+\BOOKMARK [1][-]{section.1.5}{Morphological quantification of filamentous microbes}{chapter.1}% 24
+\BOOKMARK [2][-]{subsection.1.5.1}{Development of image processing systems for mycelial analysis}{section.1.5}% 25
+\BOOKMARK [2][-]{subsection.1.5.2}{Analysis of macroscopic pellets}{section.1.5}% 26
+\BOOKMARK [2][-]{subsection.1.5.3}{Analysis of spores and germination rates}{section.1.5}% 27
+\BOOKMARK [2][-]{subsection.1.5.4}{Other applications of image processing to the study of filamentous microbes}{section.1.5}% 28
+\BOOKMARK [1][-]{section.1.6}{Conclusions}{chapter.1}% 29
+\BOOKMARK [1][-]{section.1.7}{Aims of this study}{chapter.1}% 30
+\BOOKMARK [2][-]{subsection.1.7.1}{Thesis overview}{section.1.7}% 31
+\BOOKMARK [0][-]{chapter.2}{General Materials \046 Methods}{}% 32
+\BOOKMARK [1][-]{section.2.1}{Preparation of spore inoculum}{chapter.2}% 33
+\BOOKMARK [2][-]{subsection.2.1.1}{Assessment of spore viability}{section.2.1}% 34
+\BOOKMARK [1][-]{section.2.2}{Preparation of buffers}{chapter.2}% 35
+\BOOKMARK [1][-]{section.2.3}{Basal medium for microorganism cultivation}{chapter.2}% 36
+\BOOKMARK [1][-]{section.2.4}{Optimised protocol for membrane immobilisation of culture and subsequent visualisation}{chapter.2}% 37
+\BOOKMARK [2][-]{subsection.2.4.1}{Cell immobilisation and solid-state cultivation}{section.2.4}% 38
+\BOOKMARK [2][-]{subsection.2.4.2}{Processing of culture for image analysis}{section.2.4}% 39
+\BOOKMARK [2][-]{subsection.2.4.3}{Microscopic visualisation of submerged culture}{section.2.4}% 40
+\BOOKMARK [1][-]{section.2.5}{Microscopy and image capture}{chapter.2}% 41
+\BOOKMARK [2][-]{subsection.2.5.1}{Visualisation of fungal macro-morphology}{section.2.5}% 42
+\BOOKMARK [0][-]{chapter.3}{Development of an Automated Image Analysis System for the Morphological Quantification of Filamentous Microbes}{}% 43
+\BOOKMARK [1][-]{section.3.1}{Introduction}{chapter.3}% 44
+\BOOKMARK [2][-]{subsection.3.1.1}{Basic concepts of digital image processing}{section.3.1}% 45
+\BOOKMARK [2][-]{subsection.3.1.2}{Morphological classification of filamentous microbes}{section.3.1}% 46
+\BOOKMARK [2][-]{subsection.3.1.3}{Development platform}{section.3.1}% 47
+\BOOKMARK [2][-]{subsection.3.1.4}{Aims of the work in this chapter}{section.3.1}% 48
+\BOOKMARK [1][-]{section.3.2}{Materials \046 methods}{chapter.3}% 49
+\BOOKMARK [1][-]{section.3.3}{System development I: Image pre-processing}{chapter.3}% 50
+\BOOKMARK [2][-]{subsection.3.3.1}{Low-frequency noise removal}{section.3.3}% 51
+\BOOKMARK [2][-]{subsection.3.3.2}{High-frequency noise removal}{section.3.3}% 52
+\BOOKMARK [2][-]{subsection.3.3.3}{Image segmentation}{section.3.3}% 53
+\BOOKMARK [2][-]{subsection.3.3.4}{Pre-processing of binary images}{section.3.3}% 54
+\BOOKMARK [1][-]{section.3.4}{System development II: Quantification of microbial structures}{chapter.3}% 55
+\BOOKMARK [2][-]{subsection.3.4.1}{Microscopic analysis}{section.3.4}% 56
+\BOOKMARK [2][-]{subsection.3.4.2}{Macroscopic analysis}{section.3.4}% 57
+\BOOKMARK [1][-]{section.3.5}{Discussion}{chapter.3}% 58
+\BOOKMARK [1][-]{section.3.6}{Conclusions}{chapter.3}% 59
+\BOOKMARK [0][-]{chapter.4}{Nitrocellulose as a Tool for Microscopic Examination of Filamentous Microbes}{}% 60
+\BOOKMARK [1][-]{section.4.1}{Introduction}{chapter.4}% 61
+\BOOKMARK [2][-]{subsection.4.1.1}{Assessment of two-dimensional microbial development}{section.4.1}% 62
+\BOOKMARK [2][-]{subsection.4.1.2}{Membrane-immobilisation of filamentous microbes}{section.4.1}% 63
+\BOOKMARK [2][-]{subsection.4.1.3}{Aim of the work in this chapter}{section.4.1}% 64
+\BOOKMARK [1][-]{section.4.2}{Materials \046 methods}{chapter.4}% 65
+\BOOKMARK [2][-]{subsection.4.2.1}{Assessment of image background}{section.4.2}% 66
+\BOOKMARK [1][-]{section.4.3}{Results}{chapter.4}% 67
+\BOOKMARK [2][-]{subsection.4.3.1}{Proof of concept}{section.4.3}% 68
+\BOOKMARK [2][-]{subsection.4.3.2}{Assay optimisation}{section.4.3}% 69
+\BOOKMARK [1][-]{section.4.4}{Discussion}{chapter.4}% 70
+\BOOKMARK [1][-]{section.4.5}{Conclusions}{chapter.4}% 71
+\BOOKMARK [0][-]{chapter.5}{Examination of the Growth Kinetics of Aspergillus oryzae in Solid-State Fermentation}{}% 72
+\BOOKMARK [1][-]{section.5.1}{Introduction}{chapter.5}% 73
+\BOOKMARK [2][-]{subsection.5.1.1}{The temporal analysis of micro-morphological development}{section.5.1}% 74
+\BOOKMARK [2][-]{subsection.5.1.2}{Influences on growth kinetics}{section.5.1}% 75
+\BOOKMARK [2][-]{subsection.5.1.3}{Aims of the work in this chapter}{section.5.1}% 76
+\BOOKMARK [1][-]{section.5.2}{Materials \046 methods}{chapter.5}% 77
+\BOOKMARK [1][-]{section.5.3}{Results}{chapter.5}% 78
+\BOOKMARK [2][-]{subsection.5.3.1}{Kinetics of spore swelling}{section.5.3}% 79
+\BOOKMARK [2][-]{subsection.5.3.2}{Kinetics of hyphal development}{section.5.3}% 80
+\BOOKMARK [1][-]{section.5.4}{Discussion}{chapter.5}% 81
+\BOOKMARK [2][-]{subsection.5.4.1}{Kinetics of spore swelling}{section.5.4}% 82
+\BOOKMARK [2][-]{subsection.5.4.2}{Kinetics of hyphal development}{section.5.4}% 83
+\BOOKMARK [1][-]{section.5.5}{Conclusions}{chapter.5}% 84
+\BOOKMARK [0][-]{chapter.6}{Investigation into the Morphological Development of Aspergillus oryzae in Submerged Fermentation}{}% 85
+\BOOKMARK [1][-]{section.6.1}{Introduction}{chapter.6}% 86
+\BOOKMARK [2][-]{subsection.6.1.1}{Morphological variation in submerged culture}{section.6.1}% 87
+\BOOKMARK [2][-]{subsection.6.1.2}{Challenges associated with the morphological quantification of submerged cultures}{section.6.1}% 88
+\BOOKMARK [2][-]{subsection.6.1.3}{Influences on morphology}{section.6.1}% 89
+\BOOKMARK [2][-]{subsection.6.1.4}{Chapter overview}{section.6.1}% 90
+\BOOKMARK [1][-]{section.6.2}{Materials \046 methods}{chapter.6}% 91
+\BOOKMARK [2][-]{subsection.6.2.1}{Micro-organism cultivation}{section.6.2}% 92
+\BOOKMARK [2][-]{subsection.6.2.2}{Visualisation of fungal morphology}{section.6.2}% 93
+\BOOKMARK [2][-]{subsection.6.2.3}{Processing of shake-flask cultures}{section.6.2}% 94
+\BOOKMARK [1][-]{section.6.3}{Results}{chapter.6}% 95
+\BOOKMARK [2][-]{subsection.6.3.1}{Qualitative investigation of the relationship between inoculum concentration and macro-morphology}{section.6.3}% 96
+\BOOKMARK [2][-]{subsection.6.3.2}{Characterisation of morphological development and product formation in submerged culture over time}{section.6.3}% 97
+\BOOKMARK [2][-]{subsection.6.3.3}{Investigation into the use of solid supports in submerged fermentation}{section.6.3}% 98
+\BOOKMARK [2][-]{subsection.6.3.4}{Investigation into the effect of carbon source variation on morphology in submerged culture}{section.6.3}% 99
+\BOOKMARK [2][-]{subsection.6.3.5}{Influence of inoculum concentration on morphology and alpha-amylase production}{section.6.3}% 100
+\BOOKMARK [2][-]{subsection.6.3.6}{Influence of surfactant compounds on morphology and metabolite yield}{section.6.3}% 101
+\BOOKMARK [1][-]{section.6.4}{Discussion}{chapter.6}% 102
+\BOOKMARK [2][-]{subsection.6.4.1}{Growth and fragmentation of pellets in shake-flask culture}{section.6.4}% 103
+\BOOKMARK [2][-]{subsection.6.4.2}{Limitations of mixed-phase culture format}{section.6.4}% 104
+\BOOKMARK [2][-]{subsection.6.4.3}{Macro-morphological influence of starch concentration}{section.6.4}% 105
+\BOOKMARK [2][-]{subsection.6.4.4}{Impact of carbon source variation}{section.6.4}% 106
+\BOOKMARK [2][-]{subsection.6.4.5}{Influence of inoculum concentration on morphology and metabolite production}{section.6.4}% 107
+\BOOKMARK [2][-]{subsection.6.4.6}{Supplementation of cultures with surfactant compounds}{section.6.4}% 108
+\BOOKMARK [1][-]{section.6.5}{Conclusions}{chapter.6}% 109
+\BOOKMARK [0][-]{chapter.7}{Characterisation of the Relationship Between Fractal Dimension and Branching Behaviour in Filamentous Microbes}{}% 110
+\BOOKMARK [1][-]{section.7.1}{Introduction}{chapter.7}% 111
+\BOOKMARK [2][-]{subsection.7.1.1}{What are fractals?}{section.7.1}% 112
+\BOOKMARK [2][-]{subsection.7.1.2}{Quantifying the fractal dimension}{section.7.1}% 113
+\BOOKMARK [2][-]{subsection.7.1.3}{Aim of the work in this chapter}{section.7.1}% 114
+\BOOKMARK [1][-]{section.7.2}{Materials \046 methods}{chapter.7}% 115
+\BOOKMARK [2][-]{subsection.7.2.1}{Inoculum preparation}{section.7.2}% 116
+\BOOKMARK [2][-]{subsection.7.2.2}{Microorganism cultivation}{section.7.2}% 117
+\BOOKMARK [2][-]{subsection.7.2.3}{Enumerating the fractal dimension}{section.7.2}% 118
+\BOOKMARK [1][-]{section.7.3}{Results \046 discussion}{chapter.7}% 119
+\BOOKMARK [1][-]{section.7.4}{Conclusion}{chapter.7}% 120
+\BOOKMARK [0][-]{chapter.8}{General Discussion}{}% 121
+\BOOKMARK [0][-]{section*.144}{References}{}% 122

@@ -1,0 +1,144 @@
+\topmargin = 0cm
+\headheight = 27.5pt
+\headsep = 1cm
+\footskip = 45pt
+\textwidth = 425pt
+\textheight=22cm
+\linespread{1.6}
+
+\usepackage{datetime}
+\usepackage{tocloft}
+\usepackage{calc}
+\usepackage[crop=pdfcrop]{pstool}
+\usepackage{titlesec}
+\usepackage{threeparttable}
+\usepackage{tabularx}
+\usepackage{longtable}
+\usepackage{booktabs}
+\usepackage[sort&compress, square, comma, numbers]{natbib}
+\usepackage{amsfonts,amsmath}
+\usepackage{amssymb}
+\usepackage{color}
+\usepackage{fancyhdr}
+\usepackage{hyperref}
+
+\hypersetup{
+		breaklinks=true,
+		linktocpage=true,
+    unicode=false,          % non-Latin characters in Acrobat’s bookmarks
+    pdfstartview=FitV,
+    bookmarksopen=false,
+    colorlinks=true,       % false: boxed links; true: colored links
+    linkcolor=blue,          % color of internal links
+    citecolor=blue,        % color of links to bibliography
+    urlcolor=blue,       % color of external links
+}
+
+\usepackage{subfig}
+\captionsetup{margin=0.5cm,font=small,labelfont=bf}
+
+\titleformat{\chapter}[display]{\bfseries\Large\raggedright}{Chapter \thechapter}{1em}{}
+\titleformat{\section}{\bfseries\large\raggedright}{\thesection}{1em}{}
+\titleformat{\subsection}{\bfseries\normalsize\raggedright}{\thesubsection}{1em}{}
+\titleformat{\subsubsection}{\itshape\normalsize\raggedright}{}{1em}{}
+
+\pagestyle{fancy}
+\renewcommand{\subsectionmark}[1]{\markright{{\bfseries\thesubsection}{\ \uppercase{#1}}}}
+\renewcommand{\sectionmark}[1]{\markright{{\bfseries\thesection}{\ \uppercase{#1}}}}
+\renewcommand{\chaptermark}[1]{\markright{{\bfseries\thechapter}{\ \uppercase{#1}}}}
+
+\fancyhf{}
+\fancyfoot[C]{\thepage}
+\fancyhead[R]{\rightmark}
+
+\renewcommand{\sp}[1]{\ensuremath{^{\textrm{#1}}}}
+\renewcommand{\sb}[1]{\ensuremath{_{\textrm{#1}}}}
+\renewcommand\bibname{References}
+
+\setlength\fboxsep{0pt}
+\setlength\fboxrule{0.75pt}
+
+\def \kb {k_b}
+\def \kt {k_{tip}}
+\def \qt {q_{tip}}
+\def \qg {q_{germ}}
+\def \Kt {K_t}
+\def \Kg {K_g}
+\def \Kr {K_r}
+\def \Ks {K_s}
+\def \Ds {D_s}
+\def \Pc {P_c}
+\def \Apm {A_{p,\,min}}
+\def \Af {A_f}
+\def \Csm {C_{s,\,min}}
+\def \Chm {C_{h,\,max}}
+\def \Lbm {L_{b,\,min}}
+\def \lg {l_{germ}}
+\def \hgu {L_{hgu}}
+\def \Lh {L_{th}}
+\def \Lho {L_{th0}}
+\def \Lm {L_{mh}}
+\def \Ap {A_p}
+\def \Dp {D_p}
+\def \Ci {C_i}
+\def \mumax {\mu_{max}}
+\def \omic {$\mu$m}
+\def \omics {$\mu$m\sp{2}}
+\def \bs {\blacksquare}
+\def \bl {\blacklozenge}
+\def \bt {\blacktriangle}
+\def \al {\small}
+\def \omgml {mg~mL\sp{-1}}
+\def \IUml {IU~mL\sp{-1}}
+\def \oh {h\sp{-1}}
+\def \omich {$\mu$m~h\sp{-1}}
+\def \os {\~o}
+\def \as {\~a}
+
+\newcommand{\inoc}[2]{$#1 \times 10^{#2}$~spores~ml\sp{-1}}
+\newcommand{\sm}[1]{#1~spores~ml\sp{-1}}
+\newcommand{\gl}[1]{#1~g~L\sp{-1}}
+\newcommand{\mgl}[1]{#1~mg~L\sp{-1}}
+\newcommand{\mic}[1]{#1~$\mu$m}
+\newcommand{\mics}[1]{#1~$\mu$m\sp{2}}
+\newcommand{\ul}[1]{#1~$\mu$L}
+\newcommand{\ml}[1]{#1~mL}
+\newcommand{\mich}[1]{#1~$\mu$m~h\sp{-1}}
+\newcommand{\celc}[1]{$#1^{\circ}$C}
+\newcommand{\h}[1]{#1~h\sp{-1}}
+
+\newcolumntype{R}{>{\raggedright\arraybackslash}X}
+\newcolumntype{C}{>{\centering\arraybackslash}X}
+\newcolumntype{B}{>{\raggedright\arraybackslash}p{4.2cm}}
+\newcolumntype{P}{>{\raggedright\arraybackslash}p{2.5cm}}
+
+\definecolor{gray}{gray}{0.5}
+\definecolor{red}{rgb}{0.65,0,0}
+\definecolor{green}{rgb}{0,0.65,0}
+\definecolor{blue}{rgb}{0,0,0.75}
+
+\cftsetpnumwidth{2.2em}
+\cftsetrmarg{2.4em}
+\setlength{\cftfigindent}{0em}
+\setlength{\cfttabindent}{0em}
+\setlength{\cftchapnumwidth}{1.0em}
+\setlength{\cftsecnumwidth}{1.8em}
+\setlength{\cftsubsecnumwidth}{2.7em}
+\setlength{\cftsecindent}{1.0em}
+\setlength{\cftsubsecindent}{2.8em}
+
+\psfrag{.}[Bc]{\al\hspace{0.5mm}.}
+\psfrag{,}[Bc]{\al\hspace{0.5mm},}
+\psfrag{-}[Bc]{\al\hspace{0.4mm} -}
+\psfrag{0}{\al 0}
+\psfrag{1}{\al 1}
+\psfrag{2}{\al 2}
+\psfrag{3}{\al 3}
+\psfrag{4}{\al 4}
+\psfrag{5}{\al 5}
+\psfrag{6}{\al 6}
+\psfrag{7}{\al 7}
+\psfrag{8}{\al 8}
+\psfrag{9}{\al 9}
+
+\newdateformat{monthyear}{\monthname~\THEYEAR}

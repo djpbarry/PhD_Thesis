@@ -1,0 +1,33 @@
+\documentclass[a4paper,12pt]{report}
+
+\def \Apm {A_{p,min}}
+\def \Csm {C_{s,min}}
+\def \Chm {C_{h,max}}
+\def \Lbm {L_{b,min}}
+
+\input{../Compilation/topmatter}
+
+\begin{document}
+
+\setcounter{chapter}{2}
+
+\chapter{Development of an automated image analysis system for the microscopic and macroscopic morphological quantification of filamentous microbes}
+
+\input{C2Introduction}
+
+\input{C2Methodology}
+
+\input{C2SysDevI}
+
+\input{C2SysDevII}
+
+\input{C2Discussion}
+
+\newpage
+\phantomsection
+\addcontentsline{toc}{section}{References}
+
+\bibliographystyle{IEEEtran}
+\bibliography{../ThesisRefs}
+
+\end{document}

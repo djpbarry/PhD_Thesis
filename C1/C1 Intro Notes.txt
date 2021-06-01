@@ -1,0 +1,96 @@
+Introduction: Why Fungi?
+* Fungi traditionally associated with mould (as saprotrophs), infection, parasites:
+o Associated with parasitic behaviour in plants, trees, insects, fish, animals and humans
+o Destruction of crops, e.g. Irish potatoe famine, Bengali rice famine of 1942
+* However, saprophytic mode of nutrition (as opposed to necrotrophic OR BIOTROPHIC) favourable for use in industry:
+o Use of fungi in biodegradation as waste material.
+o Fungi produce myco-diesel
+o Various products obtained from microbial cultivation
+o Saprophytic organisms – secrete metabolite into medium
+o Host organisms for heterologous protein production – GRAS status important for this purpose
+o History of industrial bioprocesses
+o Wide range of compounds produced by fungi: enzymes, alcoholic beverages, mushrooms, mycoprotein, yeast biomass, cheese, industrial alcohol, acids, vitamins, antibiotics, biopharma, fungicides, insecticides, protein expression
+o Waste product may be used as nutrient source
+o Typical fermentor design
+o Summary of process – benefits of SmF
+o Solid culturing; miso, soy sauce, tempeh, koji in Japan
+o Fungi as food
+o Primary v secondary metabolites
+o Genetic mutation and strain selection
+* Background on Aspergillus oryzae
+
+Fungal Growth
+* Fungi commence and end life as spores – needed for dispersal, variety of factors influence germination
+* Polarised hyphal growth, exponential branching
+* Modelling of hyphal growth
+* Sporulation results from nutrient limitations in some fungi, but generally poorly understood. Rare in submerged culture.
+* Specific growth rates tend to be higher for filamentous growth (check pazouki).
+* Perhipheral growth zone (pazouki).
+* Coagulative versus non-coagulative pellet formation – influence of pH and agitation. Penicillium forms pellets via hyphal agglomeration
+* Influences on pellet formation – inoculum concentration, pH, etc.
+* Pellet growth restricted to ‘active laYER’ at pellet surface
+* Hyphal development – history of findings
+
+
+Significance of Morphology in Industrial Processes
+* Different conditions for different metabolites
+* Morphological variation
+* Influences on morphology: inoculum level, initial pH, agitation, medium composition, and use of polymer additives or surface-active agents
+* Agitation in STR
+* Micromorphology versus macromorphology – 3D character
+* Mathematical modelling
+* Many different parameters used for morphological classification – few standards exist
+* Morphology and productivity – cell physiology also a factor (grimm2005b)
+* Colour image analysis?
+* Cellular aggregation – branching and hyphal growth alone cannot explain morphology
+* Variations in germination time
+* Populations versus single mycelium
+* Stress produced by fluid dynamic conditions influences mycelial disruption
+* Indirect effects of morphology on productivity – influence of rheology, mixing, substrate gradients (tubular loop bioreactor), oxygen supply, power input
+* Fragmentation; results in non-active tips; shear forces v hyphal tensile strength; lower osmotic pressure = more flexible hyphae; high Vacuolation = high fragmentation
+* Filamentous form tends to grow on fermentor walls, impellet blades and shaft, block air inlets, etc.
+* Cube root relationship
+* Pellets also fragment – shearing of hyphae from surface = new growth centres
+* Pellet shape depends on energy dissipation rate
+* Problems with mixing associated with filamentous growth
+* Problems with mass transfer associated with pelleted growth – critical pellet radius, autolysis
+* 
+
+Image Analysis as a tool for Morphological Quantification
+* History of image analysis
+* Reduce cost of PC’s makes image analysis available to most laboratories
+* Other applications in industry
+* Image analysis applied to microbial quantification
+* Image analysis – sampling can be a challenge
+* Hyphal width v mycelium width – automatic stage may used to ‘stich’ multiple photos together
+* Image analysis of culture with suspended particles important – fungi used to treat industrial waste water
+* Other methods of analysis other than image processing, e.g. FBRM, in-situ microscopy, etc.
+* 
+
+Fractals
+* What are fractals?
+* Fractal analysis of microbes
+
+
+Thesis Overview
+
+Papagianni Review:
+* Growth inetics of germ tubes varies between organisms
+* Hyphal diameter generally proportional to extension rate
+* Exponential growth: conditions favourable for growth, nutrient excess, constant % of mass must contribute to new growth, branches form at rate proportionl to rate of increase in cell mass, branching frequency proportional to specific growth rate
+* Trinci first reported that (1) thl increases exponentially (2) exponential increase in branches (3) specific rate equal to that in submerged culture
+* Above is characterisitic of growth in young mycelium
+* Radial extension rate/width of peripheral growth zone = specific growth rate
+* Influences on pellet formation – changing one vriable often has indirect effect on others
+* Cube root kinetics of pellet growth explained by Pirt as growth of active shell of outer mycelia
+* Cell agingn; vacuolated hyphae torn off pellet surface and autolysis causes pellet disintegration
+* Changes in hyphal wall composition with age
+* Equation 16 – modelling of pellet size distribution
+* Batch culture; adaptation, exponential growth, stationary phase
+* Characterisation of morphology:
+o Initially performed manually
+o Digitising table
+o Late 80’s – introduction of image analysis
+o Extensive history of image analysis applied to microbes
+o Modelling
+o Little implementation of modelling data in industry

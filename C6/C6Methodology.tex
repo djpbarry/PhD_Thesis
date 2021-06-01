@@ -1,0 +1,66 @@
+\section{Materials \& methods}
+
+\subsection{Inoculum preparation}
+
+\emph{Penicillium chrysogenum} (IMI 321325) spores were harvested from malt agar (Lab M) slant cultures by addition of 5 ml phosphate-buffered saline (PBS; pH 7.2, Oxoid Dulbecco \lq A'; 0.85\% w/v) containing Tween 80 (0.1\% v/v). Conidiospores were dislodged using a sterile swab, briefly mixed, and the suspension was filtered through sterile glass wool to remove hyphae. The inoculum was standardized using a Neubauer chamber to yield a stock concentration of \inoc{2}{6}, glycerol added to a final concentration of 20\% (v/v) and aliquots stored at \celc{-20}. The viability of spores after freezing was found to be approximately 47\% of stock concentration (pour plate method, malt agar, 36~h incubation).
+
+\subsection{Microorganism cultivation}
+
+The basal medium used for solid state fermentation of \emph{A. oryzae} was as described in Section~\ref{sec:BasalMedium} with \gl{10.0} soluble starch and \gl{17.0} Agar No. 1. Nonidet P-40 or Triton X-100 were added to yield a final concentration of either 0.1\% or 5.0\% w/v. The media was adjusted to pH 6.0 before autoclaving. Solid state fermentation of \emph{P. chrysogenum} was carried out using the following: malt agar, malt agar supplemented with CaCl\sb{2}.2H\sb{2}O (0.08\% w/v) or FeCl\sb{2}.4H\sb{2}O (0.11\% w/v), rice, orange and a mixture of rice and bulgar wheat (1:1~w/w). Rice and rice-bulgar wheat were prepared by steeping in water and autoclaving (\celc{121} for 15 minutes) before transfer to sterile Petri dishes. Orange was prepared for use by surface swabbing with alcohol and dissection with a sterile knife. Cell immobilisation, cultivation conditions and processing of culture for image analysis were as described in Section~\ref{sec:OptAssay}.
+
+Submerged fermentation of \emph{A. oryzae} was carried out in a 2~L Benchtop Fermenter (BioFlo 110, New Brunswick Scientific). The approximate internal diameter of the vessel was 0.13~m and it had a working volume of 1.5~L. Agitation was provided by two Rushton turbines with a $D_i/T$ ratio\footnote{$D_i$ is the impeller diameter and $T$ represents the vessel's internal diameter.} of 0.4 operated at 200~rpm. A pipe sparger was used to aerate the culture at an initial rate of 1.0~vvm. The fermenter was run without dissolved oxygen or pH control and the broth temperature was maintained at \celc{30}. Inoculum work-up consisted of three shake flask cultures (250~ml, 20\% working volume) inoculated with \inoc{5}{7} and incubated at \celc{30} (200~rpm for 48~hours). The medium used for fermentation and inoculum work-up was as described above (Agar No. 1 and detergents omitted). Sample preparation for fluorescent microscopy and image capture were as described in Section~\ref{sec:OptAssay}.
+
+\subsection{Enumerating the fractal dimension}
+
+In all cases, only \lq free' mycelial elements, exhibiting minimal overlapping of hyphae, were considered for image analysis, so that comparisons could be drawn between the fractal dimension and the hyphal growth unit. The generation of binary images and the enumeration of the hyphal growth unit were as described in Chapter~\ref{ch:DevImagAnal}. In the case of calcofluor white-stained samples, a pre-set grey-level threshold was used, as the non-uniform nature of the stain uptake complicated automated segmentation.
+
+The fractal dimension, $D$, of an object, $O$, was determined by first locating the object boundary in a binary image (all foreground pixels bordering background), which can be thought of as a curve consisting of a set of $N$ coordinates, $(x_n, y_n)$. From this series of points, a signal, $f(n)$, can be constructed as follows:
+
+\begin{equation} \label{eq:f(n)xy}
+	f(n) = \sqrt{(x_n - x_c)^2 + (y_n - y_c)^2} \hspace{0.4cm} \mbox{for all} \hspace{0.4cm} 0 < n < N
+\end{equation}
+
+\noindent where $(x_c, y_c)$ is the average location of all $(x, y) \in O$ (Fig.~\ref{fig:FracAlg}). If $f(n)$ is a \lq fractal signal', then the following relationship holds true \cite{blackledge2005}:
+
+\begin{equation} \label{eq:P(w)cwB}
+	P(\omega) = \frac{c}{\omega^{\beta}}
+\end{equation}
+
+\noindent where $P(\omega) = |F(\omega)|^2$, $F(\omega)$ is the Fourier transform of $f(n)$, $\beta=2q$, $q$ is the Fourier Dimension and $c$ is a constant. Taking the log of this equation yields:
+
+\begin{equation} \label{eq:ln(P(w))ln(w)c}
+	\log P(\omega) = -\beta\log \omega + c
+\end{equation}
+
+\noindent $D$ is related to $\beta$ by \cite{blackledge2005}:
+
+\begin{equation} \label{eq:DB}
+	D = \frac{5 - \beta}{2}
+\end{equation}
+
+\noindent A value for $\beta$ can therefore be determined by linear regression of a plot of $\log P(\omega) $ against $\log \omega$, excluding the DC component (Fig.~\ref{fig:LogPLogF}). All algorithms were implemented in Java using ImageJ \cite{imagej}.
+
+\begin{figure}[htbp]
+	\centering
+	\subfloat{\pstool[width=8.5cm]{../C6/Outline}{
+		\psfrag{d}[Bc]{\al $d$}
+		\psfrag{c}[bc]{\al $c$}
+		\psfrag{p}[Bc]{\al $p$}}
+	}
+	\\
+	\subfloat{\pstool[width=10.5cm]{../C6/dp}{
+		\psfrag{d}[Bc]{\al $d$}
+		\psfrag{p}[Bc]{\al $p$}}
+	}
+	\caption{Illustration of algorithm for determination of fractal dimension ($D$) of mycelial structures. Distance, $d$, between the centroid, $c$, and the boundary is plotted for each position on the boundary, $p$.}
+	\label{fig:FracAlg}
+\end{figure}
+
+\begin{figure}[tb]
+	\centering
+	\pstool[width=10.5cm]{../C6/LogPLogF}{
+		\psfrag{P}[Bc]{\al $\log P$}
+		\psfrag{S}[Bc]{\al $\log \omega$}}
+	\caption{Illustration of algorithm for determination of fractal dimension ($D$) of mycelial structures. The fractal dimension is derived from a $\log$-$\log$ plot of the Fourier domain representation of the signal.}
+	\label{fig:LogPLogF}
+\end{figure}

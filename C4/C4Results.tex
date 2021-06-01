@@ -1,0 +1,263 @@
+\section{Results}
+
+\subsection{Kinetics of spore swelling}\label{sec:KinSporeSwell}
+
+\begin{figure}[htbp]
+	\centering
+	\captionsetup[subfloat]{position=top}
+	\subfloat[]{\label{fig:SporeApDist}\pstool[width=10.5cm]{../C4/SporeApDist}{
+		\psfrag{A}[Bc]{\al\hspace{2mm}$\Ap$ (\omics)}
+		\psfrag{F}[Bc]{\al \% Frequency}}
+	}
+	\\
+	\subfloat[]{\label{fig:SporeCDist}\pstool[width=10.5cm]{../C4/SporeCDist}{
+		\psfrag{C}[Bc]{\al\hspace{2mm}$C$}
+		\psfrag{F}[Bc]{\al \% Frequency}}
+	}
+	\caption{Distribution of (a) the projected area ($\Ap$) and (b) circularity ($C$) of \emph{A. oryzae} spores, based on an analysis of sixteen different samples 0 -- 8~hours post-inoculation.}
+	\label{fig:SporeDist}
+\end{figure}
+
+In an effort to establish appropriate values for the threshold variables, $\Apm$ and $\Csm$, a series of analyses was performed with $\Apm = 0.0$ and $\Csm = 1.0$, which resulted in all objects present within a given image being included in the output data (Fig.~\ref{fig:SporeDist}). All of the area ($\Ap$) distributions have a small mode in the approximate range 2 -- \mics{4} (Fig.~\ref{fig:SporeApDist}). It is likely that the objects that fall in this range are predominantly artifacts, as the shape of all sixteen distributions is very similar over this interval. A value of \mic{3.0} was therefore considered suitable for $\Apm$ to exclude artifacts.
+
+Distributions compiled to compare circularity values presented a more complex picture. Four of the distributions are comparatively flat in the approximate range $0.2 < C < 0.8$, before rising to a sharp peak at $C \approx 0.95$. These represent samples containing germinated spores, the analysis of which did not involve the application of the \lq watershed' algorithm to separate touching objects (see Section~\ref{sec:BinPreProc}), hence the wide range of $C$ values, resulting from hyphae, clumps of spores and other artifacts. However, most of the other distributions appear to display a similar peak at $C \approx 0.95$. Most artifacts tend to be rather small and approximately circular, so discriminating between spore and artifact in terms of circularity is virtually impossible. However, evidence in the literature suggests a relatively high value of $C$ ($\sim 0.94$) for spores \cite{spohr1998}. Given this fact and the data presented in Figure~\ref{fig:SporeCDist}, an initial value of 0.8 was chosen for $\Csm$ and the effect of varying this between 0.70 and 0.85 is discussed later in this section.
+
+With these thresholds in place, the system was used to study the development of \emph{A. oryzae} spores on malt agar from 0 to 8~h (Fig.~\ref{fig:ApsCsT}). Similar to the value of \mic{4} reported by Agger and colleagues \cite{agger1998}, the initial mean spore projected area of \mics{$8.5 \pm 0.1$} at inoculation corresponds to an equivalent spore diameter of \mic{$3.3 \pm 0.4$}. An increase in mean spore projected area of approximately 30\% was observed from 0 to 6~h, corresponding to an increase in mean equivalent spore diameter of 0.45~$\mu$m (and a linear swelling rate of \mich{0.08}). Germ tube emergence from a large number of spores had occurred by 8~h, resulting in a circularity value of less than 0.8 and their subsequent exclusion from the analysis. Removal of such large objects resulted in a decrease in the measured mean projected area at this time point. The circularity of the spores was found to remain relatively constant as projected area increased from 0 to 6~h, as previously reported for individual \emph{A. oryzae} spores in submerged culture in a flow-through cell \cite{spohr1998}.
+
+\begin{figure}[tb]
+	\centering
+	\pstool[width=10.5cm]{../C4/ApsCsT}{
+		\psfrag{T}[Bc]{\al\hspace{2mm}Time (h)}
+		\psfrag{A}[Bc]{\al $\Ap$ (\omics)}
+		\psfrag{C}[tc]{$C$}}
+	\caption{Mean projected area ($\Ap$; $\bs$) and mean circularity ($C$; $\bl$) of \emph{A. oryzae} spores incubated on cellulose nitrate membranes on malt agar at \celc{25}. \mics{$A_{p, min} = 3$}, $C_{s, min} = 0.8$. The increase in mean equivalent spore diameter ($D_s$) was approximately linear at a rate of \mich{0.08} (dotted line). An average of approximately 1,500 spores were analysed per time-point from 0 to 6~h and 350 at 8~h. Error bars represent 95\% confidence intervals.}
+	\label{fig:ApsCsT}
+\end{figure}
+
+\begin{figure}[htbp]
+	\centering
+	\subfloat{\label{fig:ApDist0h}\pstool[width=6.5cm]{../C4/ApDist0h}{
+		\psfrag{F}[Bc]{\al \% Frequency}
+		\psfrag{A}[tc]{\al $\Ap$ (\omics)}
+		\psfrag{h}[Bc]{\bf 0 h}}
+	}
+	\hspace{1cm}
+	\subfloat{\label{fig:ApDist2h}\pstool[width=6.5cm]{../C4/ApDist2h}{
+		\psfrag{F}[Bc]{\al \% Frequency}
+		\psfrag{A}[tc]{\al $\Ap$ (\omics)}
+		\psfrag{h}[Bc]{\bf 2 h}}
+	}
+	\\
+	\subfloat{\label{fig:ApDist4h}\pstool[width=6.5cm]{../C4/ApDist4h}{
+		\psfrag{F}[Bc]{\al \% Frequency}
+		\psfrag{A}[tc]{\al $\Ap$ (\omics)}
+		\psfrag{h}[Bc]{\bf 4 h}}
+	}
+	\hspace{1cm}
+	\subfloat{\label{fig:ApDist6h}\pstool[width=6.5cm]{../C4/ApDist6h}{
+		\psfrag{F}[Bc]{\al \% Frequency}
+		\psfrag{A}[tc]{\al $\Ap$ (\omics)}
+		\psfrag{h}[Bc]{\bf 6 h}}
+	}
+	\\
+	\subfloat{\label{fig:ApDist8h}\pstool[width=6.5cm]{../C4/ApDist8h}{
+		\psfrag{F}[Bc]{\al \% Frequency}
+		\psfrag{A}[tc]{\al $\Ap$ (\omics)}
+		\psfrag{h}[Bc]{\bf 8 h}}
+	}
+  \caption{Comparisons of size distributions of populations of \emph{A. oryzae} spores. Spores were incubated on mixed cellulose ester membranes on malt agar at \celc{25} and analysed at the time intervals shown (\mics{$A_{p,min} = 3$}, $C_{s,min} = 0.8$).}
+  \label{fig:SporeDistT}
+\end{figure}
+
+The mean projected area of spores may not give an accurate representation of the swelling process, as each sample was found to contain a wide range of spore sizes, particularly at later time points (Fig.~\ref{fig:SporeDistT}). The projected area of most spores in the inoculum (0~h) was in the range 5 -- \mics{13}. Additionally, it was known from the routine preparation of spore stock suspensions that approximately 60\% of spores were non-viable when thawed from frozen (as judged by a failure to germinate over 48~h during the total viable count procedure on malt agar, compared with an original total count performed using a Neubauer chamber). After incubation for 8~h, the projected area of such non-viable spores should not have increased, and it is reasonable to assume that most non-viable spores still occupied the size range of 5 -- \mics{13}. However, the possibility of viable spores exhibiting a small projected area in the same range, even after 8~h, cannot be eliminated, as it is apparent from the size distributions that swelling rates can vary to a large extent among different spores. Consequently, excluding non-viable spores from the analysis is difficult to achieve, because they cannot be distinguished on the basis of size alone. Specifying a minimum projected area threshold to exclude these non-viable spores would most likely also exclude an unknown number of viable spores. Such a wide variation in spore sizes and swelling rates has previously been reported in the study of \emph{Penicillium chrysogenum} in submerged culture \cite{paul1993}.
+
+\subsubsection{Influence of media composition on kinetic parameters}
+
+The use of different substrates was found to have little influence on the swelling rate of \emph{A. oryzae} spores (Fig.~\ref{fig:TADsT}). There were no statistically significant differences in mean spore projected area ($\Ap$) at 2, 4 or 6~hours post-inoculation. The average rate of increase was found to be approximately \h{\mics{0.4}}, corresponding to an increase in spore diameter of approximately \mich{0.07}. There was however, a considerable difference apparent at 8~hours, where those spores that had not germinated were substantially larger on BM\sb{G} compared to both BM and BM\sb{S}. This may suggest that spores on BM\sb{G} have taken longer to germinate and a comparison of the size distributions of those spores incubated on malt agar for 6~hours and those incubated on BM\sb{G} for 8~hours indicates that the two populations are at a similar stage of development (Fig.~\ref{fig:MA6hvTAg8h}). However, it must be remembered that the analysis of these two populations was not identical, with no watershed applied in the case of the 8-hour-old BM\sb{G} sample. The circularity profiles for all three media were similar to that on malt agar, with the slight increase in circularity observed at 8~hours likely owing to the omission of the watershed algorithm in the analysis of these samples (Fig.~\ref{fig:TACsT}).
+
+\begin{figure}[htbp]
+	\centering
+	\captionsetup[subfloat]{position=top}
+	\subfloat[]{\label{fig:TADsT}\pstool[width=9.3cm]{../C4/TADsT}{
+		\psfrag{T}[Bc]{\al\hspace{2mm}Time (h)}
+		\psfrag{A}[Bc]{\al\hspace{2mm} $\Ap$ (\omics)}}
+	}
+	\\
+	\subfloat[]{\label{fig:TACsT}\pstool[width=9.3cm]{../C4/TACsT}{
+		\psfrag{T}[Bc]{\al\hspace{2mm}Time (h)}
+		\psfrag{C}[Bc]{\al\hspace{2mm} $C$}}
+	}
+	\caption{(a) Average projected area ($\Ap$) and (b) average circularity ($C$) of \emph{A. oryzae} spores incubated on mixed cellulose ester membranes on BM supplemented with 2\% (w/v) glucose (BM\sb{G}; $\bt$), BM supplemented with 2\% (w/v) starch (BM\sb{S}; $\bl$) and BM without sugar supplementation ($\bs$) at \celc{25}. \mics{$A_{p, min} = 3$}, $C_{s, min} = 0.8$. The increase in mean equivalent spore diameter ($D_s$) was approximately linear at a rate of \mich{0.07} (dotted line). Error bars represent 95\% confidence intervals. An average of approximately 800 spores were analysed per time-point for each media type.}
+\end{figure}
+
+\begin{figure}[htbp]
+	\centering
+	\pstool[width=10.5cm]{../C4/MA6hvTAg8h}{
+		\psfrag{F}[Bc]{\al \% Frequency}
+		\psfrag{A}[Bc]{\al $\Ap$ (\omics)}}
+	\caption{Comparison of size distributions of populations of \emph{A. oryzae} spores. Spores were incubated on mixed cellulose ester membranes on malt agar for 6~hours ($\bs$) and BM\sb{G} for 8~hours ($\square$) at \celc{25} (\mics{$A_{p,min} = 3$}, $C_{s,min} = 0.8$).}
+	\label{fig:MA6hvTAg8h}
+\end{figure}
+
+\subsubsection{Validation of results}
+
+It was found that small variations in the value of $\Csm$ did not have a significant impact on the measured average spore projected area or mean spore circularity (Fig.~\ref{fig:ApsCsCsmin}). In the analysis of samples taken at 6~h, a decrease of 0.05 in the value of $\Csm$ resulted in an increase of approximately \mics{0.75} in the measured mean spore projected area (for $\Csm > 0.7$). This is possibly a result of a greater number of clumped spores (relatively large artifacts) being included in the analysis as the circularity threshold is lowered. This variation may be reduced by placing an upper limit on the projected area of objects included in the analysis.
+
+\begin{figure}[htbp]
+	\centering
+	\captionsetup[subfloat]{position=top}
+	\subfloat[]{\label{fig:ApsCsmin}\pstool[width=10.5cm]{../C4/ApsCsmin}{
+		\psfrag{C}[Bc]{\al\hspace{2mm}$C_{s,min}$}
+		\psfrag{A}[Bc]{\al$\Ap$ (\omics)}}
+	}
+	\\
+	\subfloat[]{\label{fig:CsCsmin}\pstool[width=10.5cm]{../C4/CsCsmin}{
+		\psfrag{M}[Bc]{\al$C_{s,min}$}
+		\psfrag{C}[Bc]{\al\hspace{2mm}$C$}}
+	}
+  \caption{Variations in (a) mean spore projected area ($\Ap$) and (b) mean spore circularity ($C$) at different time intervals. Automatic image analysis was performed for different values of $C_{s,min}$. The times used were 0 ($\bullet$), 2 ($\bt$), 4 ($\bl$) and 6~h ($\bs$). Error bars represent 95\% confidence intervals.}
+  \label{fig:ApsCsCsmin}
+\end{figure}
+
+Reducing the value of $\Csm$ also had the effect of reducing the mean spore circularity at each time-point, as objects of a lower circularity are included in the measurement. In the analysis of samples taken at 6~h, a decrease of 0.05 in the value of $\Csm$ resulted in a decrease of approximately 0.02 in the measured mean spore circularity.
+
+\subsection{Kinetics of hyphal development}\label{sec:KinHyphDev}
+
+The development of \emph{A. oryzae} hyphal elements was characterised over a 10-hour period from 14 to 24~h after inoculation (Fig.~\ref{fig:ThlNtLhguT}).  Assuming hyphae to be cylinders of approximately constant radius ($r$) and density ($\rho$), then biomass ($X$) is directly proportional to the total hyphal length ($\Lh$):
+
+\begin{equation} \label{eq:XpirLh}
+	X = \pi r^2 \rho \Lh
+\end{equation}
+
+\noindent The specific growth rate ($\mu$) can then be estimated according to:
+
+\begin{equation} \label{eq:MuLhT}
+	\mu = \frac{2.3(\log \Lh - \log \Lho)}{t}
+\end{equation}
+
+\noindent where $\Lh$ is the total hyphal length at time $t$ and $\Lho$ is the total hyphal length at time $t = 0$. A value of approximately \h{0.27} was calculated for $\mu$ on the basis of data acquired using semi-automatic image analysis and \h{0.24} for the fully automatic method (Fig.~\ref{fig:ThlNtT}). Specific growth rates were calculated on the basis of total hyphal length in a previous study of \emph{A. oryzae} using a flow-through cell \cite{spohr1998}, where the immersion of the fungus in a glucose-rich medium resulted in values of $\mu$ of up to \h{0.37}. However, a specific growth rate of \h{0.258}, derived from measures of $\Lh$, was reported by Carlsen and colleagues for batch cultivations of \emph{A. oryzae} (grown as freely dispersed elements), which corresponded well with an estimation of $\mu$ from dry weight measurements (\h{0.266}). The hyphal growth unit in this work can be seen to be tending towards a constant value of approximately \mic{$72 \pm 8$} (Fig.~\ref{fig:LhguT2}).
+
+\begin{figure}[htbp]
+	\centering
+	\captionsetup[subfloat]{position=top}
+	\subfloat[]{\label{fig:ThlNtT}\pstool[width=9.6cm]{../C4/ThlNtT}{
+		\psfrag{T}[Bc]{\al\hspace{2mm}Time (h)}
+		\psfrag{H}[Bc]{\al $\Lh$ (\omic)}
+		\psfrag{N}[Bc]{\al\hspace{2mm} $N$}}
+	}
+	\\
+	\subfloat[]{\label{fig:LhguT2}\pstool[width=9.6cm]{../C4/LhguT2}{
+		\psfrag{T}[Bc]{\al\hspace{2mm}Time (h)}
+		\psfrag{H}[Bc]{\al $\hgu$ (\omic)}
+		\psfrag{N}[Bc]{\al $N$}}
+	}
+  \caption{(a) Mean total hyphal length ($\Lh$; $\bs, \square$), mean number of tips ($N$; $\bl, \lozenge$) and (b) mean hyphal growth unit ($\hgu$) of \emph{A. oryzae} on malt agar as determined by automatic ($\bs,\bl$; \mic{$L_{b, min} = 2.5$} and $C_{h, max} = 0.35$) and semi-automatic ($\square, \lozenge$) image analysis. The solid line represents exponential growth with a specific growth rate of \h{0.24} as determined by linear regression ($R^2=0.96$). The dotted line is a simulation of Equation~\ref{eq:nt} with \h{\mic{$\kb = 2.3 \times 10^{-3}$~tips}\sp{-1}}, \mic{$\Lho=3.35$} and $n_0=0.96$. Approximately 100 elements were analysed for each time-point. Error bars represent 95\% confidence intervals.}
+  \label{fig:ThlNtLhguT}
+\end{figure}
+
+Using this data, an expression for the mean number of tips as a function of time ($n_t$) may be derived. Spohr and colleagues described this process as follows \cite{spohr1997}:
+
+\begin{equation}\label{eq:dNdt}
+	\frac{d n_t}{dt} = \left\{ \begin{array}{ll} 0 & \Lh < 150 \mu \mbox{m} \\ \kb L_t = \kb . \Lho e^{\mu t} & \Lh \geq 150 \mu \mbox{m} \end{array} \right.
+\end{equation}
+
+\noindent where $L_t$ is $\Lh$ expressed as a function of time ($L_t = \Lh(t)$) and $\kb$ is the specific branching frequency. In other words, significant branching does not commence until a minimum mean total hyphal length of \mic{150} has been attained \cite{carlsen1996a}. Integration of Equation~\ref{eq:dNdt} gives (for \mic{$\Lh \geq 150$}):
+
+\begin{equation}\label{eq:nt}
+	n_t = \frac{\kb}{\mu} . \Lho e^{\mu t} + n_0
+\end{equation}
+
+\noindent A value of $\kb$ may be estimated as the product of $\mu$ and the rate of change of $N$ with respect to $\Lh$ (Fig.~\ref{fig:NThl}):
+
+\begin{equation}
+	\kb = \mu . \frac{d N}{d \Lh}
+\end{equation}
+
+\noindent which yields \h{\mic{$\kb=2.3 \times 10^{-3}$~tips}\sp{-1}}, identical to the value reported by Spohr and colleagues for a wild type strain of \emph{A.~oryzae} \cite{spohr1997}.
+
+\begin{figure}[t]
+	\centering
+	\pstool[width=10.5cm]{../C4/NThl}{
+		\psfrag{N}[Bc]{\al $N$}
+		\psfrag{T}[Bc]{\al \hspace{2mm} $\Lh$ (\omic)}}
+	\caption{Mean number of tips ($N$) versus mean total hyphal length ($\Lh$) of various \emph{A. oryzae} mycelial populations cultivated on malt agar for different periods of time. A specific branching constant ($\kb$) of \h{\mic{$ 2.3 \times 10^{-3}$~tips}\sp{-1}} was estimated by multiplying the slope of this plot (\mic{0.0086~tips}\sp{-1}; $R^2=0.996$) by $\mu$. }
+	\label{fig:NThl}
+\end{figure}
+
+The acquired data on $N$ and $\Lh$ can be used to determine other kinetic parameters of use when comparing the growth of fungi in different environmental conditions. The average tip extension rate at a given point in time ($\qt$; \h{\omic~tip\sp{-1}}), for example, may be calculated according to \cite{spohr1997}:
+
+\begin{equation}\label{eq:qt1}
+	\qt = \mu . \frac{\Lh}{N}
+\end{equation}
+
+\noindent which is plotted as a function of $\Lh$ (Fig.~\ref{fig:qhypha}), but may also be correlated with the total hyphal length by saturation kinetics \cite{spohr1997}:
+
+\begin{equation}\label{eq:qt2}
+	\qt = \kt . \frac{\Lh}{\Lh + \Kt}
+\end{equation}
+
+\noindent where $\kt$ (\h{\omic~tip\sp{-1}}) is the maximum tip extension rate and $\Kt$ (\omic) is a saturation constant.
+
+\begin{figure}[t]
+	\centering
+	\pstool[width=10.5cm]{../C4/q_hypha}{
+		\psfrag{q}[Bc]{\al $\qt$ (\h{\omic~tip\sp{-1}})}
+		\psfrag{T}[Bc]{\al \hspace{2mm} $\Lh$ (\omic)}}
+	\caption{Mean tip extension rate ($\qt$) as function of the mean total hyphal length ($\Lh$) of \emph{A.~oryzae} as determined by Equation~\ref{eq:qt1}. The dotted line represents Equation~\ref{eq:qt2} with \h{\mic{$\kt = 27$}~tip\sp{-1}} and \mic{$\Kt = 148$}.}
+	\label{fig:qhypha}
+\end{figure}
+
+A large distribution in the size of individual hyphal elements was discernible at each time-point, with the distribution being greatest in the later stages of the analysis (Fig.~\ref{fig:ThlDist}). This may be a result of variations in the specific growth rate of different hyphal elements within a given sample. Differences in spore swelling rate and germination time would also make a contribution to the observed variation in the sizes. Considering the increase in total hyphal length as an exponential function, a difference of as little as 10\% in the specific growth rate of two hyphal elements would be expected to result in a significant variation in total hyphal length after 24~h of growth. Variations in the specific growth rate well in excess of this figure have been reported in an online study of \emph{A. oryzae} in submerged culture \cite{spohr1998}.
+
+\begin{figure}[t]
+	\centering
+	\pstool[width=10.5cm]{../C4/ThlDist}{
+		\psfrag{H}[Bc]{\al\hspace{2mm}$\Lh$ (\omic)}
+		\psfrag{F}[Bc]{\al \% Frequency}}
+	\caption{A 21-hour old sample of \emph{A. oryzae} cultivated on cellulose nitrate membranes on malt agar shows a wide variation in total hyphal length ($\Lh$). \mic{$L_{b,min} = 2.5$}, $C_{h,max} = 0.35$.}
+	\label{fig:ThlDist}
+\end{figure}
+
+\subsubsection{Influence of media composition on kinetic parameters}
+
+The influence of different carbon substrates on growth kinetics was investigated and the growth rates on each of three different media compared (Fig.~\ref{fig:TAThlT}). Glucose was found to yield a marginally higher growth rate of \h{0.29} compared to 0.24 and \h{0.25} on starch and the basal medium respectively. However, it is clear from the figure that at any given point in time, there is no statistically significant difference between the three measured values of $\Lh$. It may therefore be concluded that there was no appreciable difference in growth rates on the three different media, with all three being similar to that observed on malt agar.
+
+\begin{figure}[t]
+	\centering
+	\pstool[width=10.5cm]{../C4/TAThlT}{
+		\psfrag{T}[Bc]{\al\hspace{2mm}Time (h)}
+		\psfrag{H}[Bc]{\al $\Lh$ (\omic)}}
+	\caption{Average total hyphal length ($\Lh$) of \emph{A. oryzae} elements growing on mixed cellulose ester membranes on BM supplemented with 2\% (w/v) glucose (BM\sb{G}; $\bt$), starch (BM\sb{S}; $\bl$) and without sugar supplementation ($\bs$) at \celc{25}. The specific growth rate ($\mu$) was estimated as approximately \h{0.29} on BM\sb{G} ($R^2=0.95$), \h{0.24} on BM\sb{S} ($R^2=0.99$) and \h{0.25} on BM ($R^2=0.97$). The dotted line represents exponential growth with a specific growth rate of \h{0.26} ($R^2=0.96$). Error bars represent 95\% confidence intervals. An average of approximately 100 elements were analysed per time-point for each media type.}
+	\label{fig:TAThlT}
+\end{figure}
+
+\subsubsection{Validation of results}
+
+The effect of varying $\Chm$ by $\pm 0.10$ was tested and was found to have little influence on the results (Fig.~\ref{fig:ThlNtChmax}). Reducing the value of $\Chm$ will have the effect of excluding a greater number of artifacts from the analysis. However, it will also result in the exclusion of small unbranched hyphae, which typically have a circularity of 0.3 -- 0.4, depending on their size. By excluding these small hyphae, the mean total hyphal length and the mean number of tips per hyphal element will be slightly over-estimated, particularly for earlier time-points.
+
+\begin{figure}[htbp]
+	\centering
+	\captionsetup[subfloat]{position=top}
+	\subfloat[]{\label{fig:ThlChmax}\pstool[width=10.5cm]{../C4/ThlChmax}{
+		\psfrag{T}[Bc]{\al$\Lh$ (\omic)}
+		\psfrag{C}[Bc]{\al\hspace{2mm}$C_{h,max}$}}
+	}
+	\\
+	\subfloat[]{\label{fig:NtChmax}\pstool[width=10.5cm]{../C4/NtChmax}{
+		\psfrag{N}[Bc]{\al$N$}
+		\psfrag{C}[Bc]{\al\hspace{2mm}$C_{h,max}$}}
+	}
+  \caption{Variations in (a) mean total hyphal length ($\Lh$) and (b) mean number of tips ($N$) at different time intervals. Automatic image analysis was performed for different values of $C_{h,max}$. The times used were 14 ($\bullet$), 16.9 ($\bt$), 19.7 ($\bl$), and 22.6~h ($\bs$). Error bars represent 95\% confidence intervals.}
+  \label{fig:ThlNtChmax}
+\end{figure}
+
+The effect of varying $\Lbm$ by \mic{$\pm 2.0$} was also tested and was found to have little influence on the measured mean number of tips (Fig.~\ref{fig:NtLbmin}) and virtually no impact on the mean total hyphal length (not shown). Increasing the value of $\Lbm$ will result in smaller branches being excluded from the analysis and an underestimation in the number of tips. A large increase in the value of $\Lbm$ would be necessary to cause a significant decrease in the mean total hyphal length. Removing branches \mic{2 -- 4} long is unlikely to have an appreciable effect on the final result when quantifying structures that are hundreds, or even thousands, of microns in length.
+
+\begin{figure}[t]
+	\centering
+	\pstool[width=10.5cm]{../C4/NtLbmin}{
+		\psfrag{N}[Bc]{\al$N$}
+		\psfrag{B}[Bc]{\al\hspace{2mm}$L_{b,min}$ (\omic)}}
+  \caption{Variations in mean number of tips ($N$) as determined by automatic image analysis for different values of $L_{b,min}$. The times used were 14 ($\bullet$), 16.9 ($\bt$), 19.7 ($\bl$), and 22.6~h ($\bs$). Error bars represent 95\% confidence intervals.}
+  \label{fig:NtLbmin}
+\end{figure}

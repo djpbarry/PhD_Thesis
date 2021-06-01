@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="311.87262"
+   height="164.68063"
+   id="svg2"
+   sodipodi:version="0.32"
+   inkscape:version="0.46"
+   version="1.0"
+   sodipodi:docname="PelletRegions.svg"
+   inkscape:output_extension="org.inkscape.output.svg.inkscape">
+  <defs
+     id="defs4">
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 526.18109 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="744.09448 : 526.18109 : 1"
+       inkscape:persp3d-origin="372.04724 : 350.78739 : 1"
+       id="perspective10" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     gridtolerance="10000"
+     guidetolerance="10"
+     objecttolerance="10"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.7065331"
+     inkscape:cx="64.669266"
+     inkscape:cy="51.904426"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     units="cm"
+     inkscape:window-width="1280"
+     inkscape:window-height="750"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-279.93678,-413.66277)">
+    <path
+       id="path2387"
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 443.32097,496.40131 C 443.32097,541.35735 406.83491,577.84341 361.87887,577.84341 C 316.92283,577.84341 280.43678,541.35735 280.43678,496.40131 C 280.43678,451.44527 316.92283,414.95922 361.87887,414.95922 C 406.83491,414.95922 443.32097,451.44527 443.32097,496.40131 z M 536.75053,414.16277 L 561.35262,414.16277 M 361.93183,577.84318 L 560.59891,577.84318 M 548.82911,414.75796 L 548.82911,577.84318" />
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+       x="565.05157"
+       y="504.73419"
+       id="text3167"><tspan
+         sodipodi:role="line"
+         id="tspan3169"
+         x="565.05157"
+         y="504.73419">D</tspan></text>
+    <path
+       style="opacity:1;fill:#c8c8c8;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 422.17745,496.40082 C 422.17745,529.68533 395.16393,556.69884 361.87943,556.69884 C 328.59492,556.69884 301.5814,529.68533 301.5814,496.40082 C 301.5814,463.11631 328.59492,436.10279 361.87943,436.10279 C 395.16393,436.10279 422.17745,463.11631 422.17745,496.40082 z"
+       id="path3265" />
+    <path
+       style="fill:#000000;fill-opacity:0.19607843;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 361.82076,556.69918 L 510.86672,556.69918"
+       id="path3263" />
+    <path
+       style="fill:#000000;fill-opacity:0.19607843;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 487.25398,434.85318 L 511.85607,434.85318"
+       id="path3261" />
+    <path
+       style="fill:#000000;fill-opacity:0.19607843;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 499.95544,435.51071 L 499.95544,556.6965"
+       id="path2385" />
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+       x="505.58374"
+       y="504.26517"
+       id="text3179"><tspan
+         sodipodi:role="line"
+         id="tspan3181"
+         x="505.58374"
+         y="504.26517">d</tspan></text>
+  </g>
+</svg>

@@ -1,0 +1,1035 @@
+This is pdfTeX, Version 3.1415926-1.40.9 (MiKTeX 2.7) (preloaded format=pdflatex 2010.2.12)  27 FEB 2010 13:15
+entering extended mode
+**C:/Documents*and*Settings/Dave/Desktop/My*Dropbox/Thesis/C3/C3Main.tex
+("C:/Documents and Settings/Dave/Desktop/My Dropbox/Thesis/C3/C3Main.tex"
+LaTeX2e <2005/12/01>
+Babel <v3.8l> and hyphenation patterns for english, dumylang, nohyphenation, ge
+rman, ngerman, german-x-2008-06-18, ngerman-x-2008-06-18, french, loaded.
+("C:\Program Files\MiKTeX 2.7\tex\latex\base\report.cls"
+Document Class: report 2005/09/16 v1.4f Standard LaTeX document class
+("C:\Program Files\MiKTeX 2.7\tex\latex\base\size12.clo"
+File: size12.clo 2005/09/16 v1.4f Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@chapter=\count80
+\c@section=\count81
+\c@subsection=\count82
+\c@subsubsection=\count83
+\c@paragraph=\count84
+\c@subparagraph=\count85
+\c@figure=\count86
+\c@table=\count87
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+("C:\Documents and Settings\Dave\Desktop\My Dropbox\Thesis\Compilation\topmatte
+r.tex" ("C:\Program Files\MiKTeX 2.7\tex\latex\pstool\pstool.sty"
+Package: pstool 2009/05/25 v1.2a Wrapper for processing PostScript/psfrag figur
+es
+
+("C:\Program Files\MiKTeX 2.7\tex\generic\oberdiek\catchfile.sty"
+Package: catchfile 2007/11/11 v1.2 Catches the contents of a file (HO)
+
+("C:\Program Files\MiKTeX 2.7\tex\generic\oberdiek\infwarerr.sty"
+Package: infwarerr 2007/09/09 v1.2 Providing info/warning/message (HO)
+))
+("C:\Program Files\MiKTeX 2.7\tex\latex\graphics\color.sty"
+Package: color 2005/11/14 v1.0j Standard LaTeX Color (DPC)
+
+("C:\Program Files\MiKTeX 2.7\tex\latex\00miktex\color.cfg"
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package color Info: Driver file: pdftex.def on input line 130.
+
+("C:\Program Files\MiKTeX 2.7\tex\latex\pdftex-def\pdftex.def"
+File: pdftex.def 2008/09/08 v0.04l Graphics/color for pdfTeX
+\Gread@gobject=\count88
+))
+("C:\Program Files\MiKTeX 2.7\tex\generic\oberdiek\ifpdf.sty"
+Package: ifpdf 2007/12/12 v1.6 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in pdf mode detected.
+)
+("C:\Program Files\MiKTeX 2.7\tex\latex\ifplatform\ifplatform.sty"
+Package: ifplatform 2007/11/18 v0.2 Testing for the operating system
+system(echo 'write18-test-2010227795'>"C3Main.w18")...executed.
+
+\instream=\read1
+system(del "C3Main.w18")...executed.
+
+)
+("C:\Program Files\MiKTeX 2.7\tex\latex\graphics\graphicx.sty"
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files\MiKTeX 2.7\tex\latex\graphics\keyval.sty"
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+("C:\Program Files\MiKTeX 2.7\tex\latex\graphics\graphics.sty"
+Package: graphics 2006/02/20 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files\MiKTeX 2.7\tex\latex\graphics\trig.sty"
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+("C:\Program Files\MiKTeX 2.7\tex\latex\00miktex\graphics.cfg"
+File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
+)
+Package graphics Info: Driver file: pdftex.def on input line 90.
+)
+\Gin@req@height=\dimen103
+\Gin@req@width=\dimen104
+)
+("C:\Program Files\MiKTeX 2.7\tex\latex\psfrag\psfrag.sty"
+Package: psfrag 1998/04/11 v3.04 PSfrag (MCG)
+\pfg@pcount=\count89
+\pfg@scount=\count90
+\pfg@temp=\write3
+)
+("C:\Program Files\MiKTeX 2.7\tex\latex\bigfoot\suffix.sty"
+Package: suffix 2006/07/15 1.5 Variant command support
+)
+("C:\Program Files\MiKTeX 2.7\tex\latex\xkeyval\xkeyval.sty"
+Package: xkeyval 2008/08/13 v2.6a package option processing (HA)
+
+("C:\Program Files\MiKTeX 2.7\tex\generic\xkeyval\xkeyval.tex"
+\XKV@toks=\toks15
+\XKV@tempa@toks=\toks16
+\XKV@depth=\count91
+File: xkeyval.tex 2008/08/13 v2.6a key=value parser (HA)
+))
+("C:\Program Files\MiKTeX 2.7\tex\latex\inversepath\inversepath.sty"
+Package: inversepath 2008/07/31 v0.2 Inverse relative paths
+)
+\pstool@out=\write4
+)
+("C:\Program Files\MiKTeX 2.7\tex\latex\algorithms\algorithm.sty"
+Package: algorithm 2009/08/24 v0.1 Document Style `algorithm' - floating enviro
+nment
+
+("C:\Program Files\MiKTeX 2.7\tex\latex\float\float.sty"
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count92
+\float@exts=\toks17
+\float@box=\box26
+\@float@everytoks=\toks18
+\@floatcapt=\box27
+)
+("C:\Program Files\MiKTeX 2.7\tex\latex\base\ifthen.sty"
+Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
+)
+\@float@every@algorithm=\toks19
+\c@algorithm=\count93
+)
+("C:\Program Files\MiKTeX 2.7\tex\latex\algorithms\algorithmic.sty"
+Package: algorithmic 2009/08/24 v0.1 Document Style `algorithmic'
+\c@ALC@unique=\count94
+\c@ALC@line=\count95
+\c@ALC@rem=\count96
+\c@ALC@depth=\count97
+\ALC@tlm=\skip43
+\algorithmicindent=\skip44
+)
+("C:\Program Files\MiKTeX 2.7\tex\latex\titlesec\titlesec.sty"
+Package: titlesec 2007/08/12 v2.8 Sectioning titles
+\ttl@box=\box28
+\beforetitleunit=\skip45
+\aftertitleunit=\skip46
+\ttl@plus=\dimen105
+\ttl@minus=\dimen106
+\ttl@toksa=\toks20
+\titlewidth=\dimen107
+\titlewidthlast=\dimen108
+\titlewidthfirst=\dimen109
+)
+("C:\Program Files\MiKTeX 2.7\tex\latex\ltxmisc\threeparttable.sty"
+Package: threeparttable 2003/06/13  v 3.0
+\@tempboxb=\box29
+)
+("C:\Program Files\MiKTeX 2.7\tex\latex\tools\tabularx.sty"
+Package: tabularx 1999/01/07 v2.07 `tabularx' package (DPC)
+
+("C:\Program Files\MiKTeX 2.7\tex\latex\tools\array.sty"
+Package: array 2005/08/23 v2.4b Tabular extension package (FMi)
+\col@sep=\dimen110
+\extrarowheight=\dimen111
+\NC@list=\toks21
+\extratabsurround=\skip47
+\backup@length=\skip48
+)
+\TX@col@width=\dimen112
+\TX@old@table=\dimen113
+\TX@old@col=\dimen114
+\TX@target=\dimen115
+\TX@delta=\dimen116
+\TX@cols=\count98
+\TX@ftn=\toks22
+)
+("C:\Program Files\MiKTeX 2.7\tex\latex\booktabs\booktabs.sty"
+Package: booktabs 2005/04/14 v1.61803 publication quality tables
+\heavyrulewidth=\dimen117
+\lightrulewidth=\dimen118
+\cmidrulewidth=\dimen119
+\belowrulesep=\dimen120
+\belowbottomsep=\dimen121
+\aboverulesep=\dimen122
+\abovetopsep=\dimen123
+\cmidrulesep=\dimen124
+\cmidrulekern=\dimen125
+\defaultaddspace=\dimen126
+\@cmidla=\count99
+\@cmidlb=\count100
+\@aboverulesep=\dimen127
+\@belowrulesep=\dimen128
+\@thisruleclass=\count101
+\@lastruleclass=\count102
+\@thisrulewidth=\dimen129
+)
+("C:\Program Files\MiKTeX 2.7\tex\latex\natbib\natbib.sty"
+Package: natbib 2009/07/16 8.31 (PWD, AO)
+\bibhang=\skip49
+\bibsep=\skip50
+LaTeX Info: Redefining \cite on input line 694.
+\c@NAT@ctr=\count103
+)
+("C:\Program Files\MiKTeX 2.7\tex\latex\amsfonts\amsfonts.sty"
+Package: amsfonts 2001/10/25 v2.2f
+\@emptytoks=\toks23
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 132.
+)
+("C:\Program Files\MiKTeX 2.7\tex\latex\amsmath\amsmath.sty"
+Package: amsmath 2000/07/18 v2.13 AMS math features
+\@mathmargin=\skip51
+
+For additional information on amsmath, use the `?' option.
+("C:\Program Files\MiKTeX 2.7\tex\latex\amsmath\amstext.sty"
+Package: amstext 2000/06/29 v2.01
+
+("C:\Program Files\MiKTeX 2.7\tex\latex\amsmath\amsgen.sty"
+File: amsgen.sty 1999/11/30 v2.0
+\@emptytoks=\toks24
+\ex@=\dimen130
+))
+("C:\Program Files\MiKTeX 2.7\tex\latex\amsmath\amsbsy.sty"
+Package: amsbsy 1999/11/29 v1.2d
+\pmbraise@=\dimen131
+)
+("C:\Program Files\MiKTeX 2.7\tex\latex\amsmath\amsopn.sty"
+Package: amsopn 1999/12/14 v2.01 operator names
+)
+\inf@bad=\count104
+LaTeX Info: Redefining \frac on input line 211.
+\uproot@=\count105
+\leftroot@=\count106
+LaTeX Info: Redefining \overline on input line 307.
+\classnum@=\count107
+\DOTSCASE@=\count108
+LaTeX Info: Redefining \ldots on input line 379.
+LaTeX Info: Redefining \dots on input line 382.
+LaTeX Info: Redefining \cdots on input line 467.
+\Mathstrutbox@=\box30
+\strutbox@=\box31
+\big@size=\dimen132
+LaTeX Font Info:    Redeclaring font encoding OML on input line 567.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 568.
+\macc@depth=\count109
+\c@MaxMatrixCols=\count110
+\dotsspace@=\muskip10
+\c@parentequation=\count111
+\dspbrk@lvl=\count112
+\tag@help=\toks25
+\row@=\count113
+\column@=\count114
+\maxfields@=\count115
+\andhelp@=\toks26
+\eqnshift@=\dimen133
+\alignsep@=\dimen134
+\tagshift@=\dimen135
+\tagwidth@=\dimen136
+\totwidth@=\dimen137
+\lineht@=\dimen138
+\@envbody=\toks27
+\multlinegap=\skip52
+\multlinetaggap=\skip53
+\mathdisplay@stack=\toks28
+LaTeX Info: Redefining \[ on input line 2666.
+LaTeX Info: Redefining \] on input line 2667.
+)
+("C:\Program Files\MiKTeX 2.7\tex\latex\amsfonts\amssymb.sty"
+Package: amssymb 2002/01/22 v2.2d
+)
+("C:\Program Files\MiKTeX 2.7\tex\latex\fancyhdr\fancyhdr.sty"
+\fancy@headwidth=\skip54
+\f@ncyO@elh=\skip55
+\f@ncyO@erh=\skip56
+\f@ncyO@olh=\skip57
+\f@ncyO@orh=\skip58
+\f@ncyO@elf=\skip59
+\f@ncyO@erf=\skip60
+\f@ncyO@olf=\skip61
+\f@ncyO@orf=\skip62
+)
+("C:\Program Files\MiKTeX 2.7\tex\latex\hyperref\hyperref.sty"
+Package: hyperref 2008/11/18 v6.78m Hypertext links for LaTeX
+
+("C:\Program Files\MiKTeX 2.7\tex\generic\oberdiek\ifvtex.sty"
+Package: ifvtex 2008/11/04 v1.4 Switches for detecting VTeX and its modes (HO)
+Package ifvtex Info: VTeX not detected.
+)
+("C:\Program Files\MiKTeX 2.7\tex\generic\ifxetex\ifxetex.sty"
+Package: ifxetex 2008/09/18 v0.4 Provides ifxetex conditional
+)
+("C:\Program Files\MiKTeX 2.7\tex\latex\oberdiek\hycolor.sty"
+Package: hycolor 2008/09/08 v1.4 Code for color options of hyperref/bookmark (H
+O)
+
+("C:\Program Files\MiKTeX 2.7\tex\latex\oberdiek\xcolor-patch.sty"
+Package: xcolor-patch 2008/09/08 xcolor patch
+))
+\@linkdim=\dimen139
+\Hy@linkcounter=\count116
+\Hy@pagecounter=\count117
+
+("C:\Program Files\MiKTeX 2.7\tex\latex\hyperref\pd1enc.def"
+File: pd1enc.def 2008/11/18 v6.78m Hyperref: PDFDocEncoding definition (HO)
+)
+("C:\Program Files\MiKTeX 2.7\tex\generic\oberdiek\etexcmds.sty"
+Package: etexcmds 2007/12/12 v1.2 Prefix for e-TeX command names (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)
+("C:\Program Files\MiKTeX 2.7\tex\latex\00miktex\hyperref.cfg"
+File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
+)
+("C:\Program Files\MiKTeX 2.7\tex\latex\oberdiek\kvoptions.sty"
+Package: kvoptions 2007/10/18 v3.0 Keyval support for LaTeX options (HO)
+)
+Package hyperref Info: Hyper figures OFF on input line 2907.
+Package hyperref Info: Link nesting OFF on input line 2912.
+Package hyperref Info: Hyper index ON on input line 2915.
+Package hyperref Info: Plain pages OFF on input line 2922.
+Package hyperref Info: Backreferencing OFF on input line 2927.
+
+Implicit mode ON; LaTeX internals redefined
+Package hyperref Info: Bookmarks ON on input line 3117.
+("C:\Program Files\MiKTeX 2.7\tex\latex\ltxmisc\url.sty"
+\Urlmuskip=\muskip11
+Package: url 2006/04/12  ver 3.3  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 3351.
+
+("C:\Program Files\MiKTeX 2.7\tex\generic\oberdiek\bitset.sty"
+Package: bitset 2007/09/28 v1.0 Data type bit set (HO)
+
+("C:\Program Files\MiKTeX 2.7\tex\generic\oberdiek\intcalc.sty"
+Package: intcalc 2007/09/27 v1.1 Expandable integer calculations (HO)
+)
+("C:\Program Files\MiKTeX 2.7\tex\generic\oberdiek\bigintcalc.sty"
+Package: bigintcalc 2007/11/11 v1.1 Expandable big integer calculations (HO)
+
+("C:\Program Files\MiKTeX 2.7\tex\generic\oberdiek\pdftexcmds.sty"
+Package: pdftexcmds 2007/12/12 v0.3 LuaTeX support for pdfTeX utility functions
+ (HO)
+Package pdftexcmds Info: LuaTeX not detected on input line 139.
+)))
+("C:\Program Files\MiKTeX 2.7\tex\generic\oberdiek\kvsetkeys.sty"
+Package: kvsetkeys 2007/09/29 v1.3 Key value parser with default handler suppor
+t (HO)
+)
+\Fld@menulength=\count118
+\Field@Width=\dimen140
+\Fld@charsize=\dimen141
+\Field@toks=\toks29
+Package hyperref Info: Hyper figures OFF on input line 4268.
+Package hyperref Info: Link nesting OFF on input line 4273.
+Package hyperref Info: Hyper index ON on input line 4276.
+Package hyperref Info: backreferencing OFF on input line 4283.
+Package hyperref Info: Link coloring OFF on input line 4288.
+Package hyperref Info: Link coloring with OCG OFF on input line 4293.
+Package hyperref Info: PDF/A mode OFF on input line 4298.
+
+("C:\Program Files\MiKTeX 2.7\tex\generic\oberdiek\atbegshi.sty"
+Package: atbegshi 2008/07/31 v1.9 At begin shipout hook (HO)
+)
+\Hy@abspage=\count119
+\c@Item=\count120
+)
+*hyperref using default driver hpdftex*
+("C:\Program Files\MiKTeX 2.7\tex\latex\hyperref\hpdftex.def"
+File: hpdftex.def 2008/11/18 v6.78m Hyperref driver for pdfTeX
+\Fld@listcount=\count121
+)
+Package hyperref Info: Option `breaklinks' set `true' on input line 35.
+Package hyperref Info: Option `linktocpage' set `true' on input line 35.
+Package hyperref Info: Option `unicode' set `false' on input line 35.
+
+("C:\Program Files\MiKTeX 2.7\tex\latex\hyperref\puenc.def"
+File: puenc.def 2008/11/18 v6.78m Hyperref: PDF Unicode definition (HO)
+)
+Package hyperref Info: Option `bookmarksopen' set `true' on input line 35.
+Package hyperref Info: Option `colorlinks' set `true' on input line 35.
+
+("C:\Program Files\MiKTeX 2.7\tex\latex\subfig\subfig.sty"
+Package: subfig 2005/06/28 ver: 1.3 subfig package
+
+("C:\Program Files\MiKTeX 2.7\tex\latex\caption\caption.sty"
+Package: caption 2008/08/24 v3.1j Customizing captions (AR)
+
+("C:\Program Files\MiKTeX 2.7\tex\latex\caption\caption3.sty"
+Package: caption3 2008/08/24 v3.1j caption3 kernel (AR)
+\captionmargin=\dimen142
+\captionmargin@=\dimen143
+\captionwidth=\dimen144
+\caption@indent=\dimen145
+\caption@parindent=\dimen146
+\caption@hangindent=\dimen147
+)
+\c@ContinuedFloat=\count122
+Package caption Info: float package is loaded.
+Package caption Info: hyperref package is loaded.
+Package caption Info: threeparttable package is loaded.
+)
+\c@KVtest=\count123
+\sf@farskip=\skip63
+\sf@captopadj=\dimen148
+\sf@capskip=\skip64
+\sf@nearskip=\skip65
+\c@subfigure=\count124
+\c@subfigure@save=\count125
+\c@lofdepth=\count126
+\c@subtable=\count127
+\c@subtable@save=\count128
+\c@lotdepth=\count129
+\sf@top=\skip66
+\sf@bottom=\skip67
+)
+Package color Info: Redefining color red on input line 99.
+Package color Info: Redefining color green on input line 100.
+Package color Info: Redefining color blue on input line 101.
+) (C3Main.aux)
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+
+("C:\Program Files\MiKTeX 2.7\tex\context\base\supp-pdf.tex"
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count130
+\scratchdimen=\dimen149
+\scratchbox=\box32
+\nofMPsegments=\count131
+\nofMParguments=\count132
+\everyMPshowfont=\toks30
+\MPscratchCnt=\count133
+\MPscratchDim=\dimen150
+\MPnumerator=\count134
+\everyMPtoPDFconversion=\toks31
+)
+Package hyperref Info: Link coloring ON on input line 5.
+ ("C:\Program Files\MiKTeX 2.7\tex\latex\hyperref\nameref.sty"
+Package: nameref 2007/05/29 v2.31 Cross-referencing by name of section
+
+("C:\Program Files\MiKTeX 2.7\tex\latex\oberdiek\refcount.sty"
+Package: refcount 2008/08/11 v3.1 Data extraction from references (HO)
+)
+\c@section@level=\count135
+)
+LaTeX Info: Redefining \ref on input line 5.
+LaTeX Info: Redefining \pageref on input line 5.
+ (C3Main.out)
+(C3Main.out)
+\@outlinefile=\write5
+\AtBeginShipoutBox=\box33
+Package caption Info: Begin \AtBeginDocument code.
+Package caption3 Info: subfig package 1.2 or 1.3 is loaded.
+LaTeX Info: Redefining \subref on input line 5.
+Package caption Info: End \AtBeginDocument code.
+
+Chapter 3.
+(C3Introduction.tex [1
+Non-PDF special ignored!
+
+
+{C:/Documents and Settings/All Users/Application Data/MiKTeX/2.7/pdftex/config/
+pdftex.map}]
+Overfull \hbox (2.47894pt too wide) in paragraph at lines 11--12
+\OT1/cmr/m/n/12 vi-sion of a field of view that is pre-dom-i-nantly free of art
+e-fact, pro-vides a high-magnification,
+ []
+
+[2] [3] [4] ("C:\Program Files\MiKTeX 2.7\tex\latex\amsfonts\umsa.fd")
+("C:\Program Files\MiKTeX 2.7\tex\latex\amsfonts\umsb.fd") [5])
+(C3Methodology.tex [6]
+
+! Package inversepath Error: No absolute path specified.
+
+See the inversepath package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.10 		\psfrag{N}[Bl]{\al Membrane}}}
+                                     
+You must declare the file path of the main file with \absolutepath{} to be able
+ to resolve back-relative paths
+
+! Undefined control sequence.
+\ip@strippath ...dafter \ip@strippath \ip@jobpath 
+                                                  \@nil / \let \@tempa \ip@l...
+l.10 		\psfrag{N}[Bl]{\al Membrane}}}
+                                     
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> ...ip@directpath {\ip@directpath \@nil 
+                                                  /} \def \@tempa {\@nil }\i...
+l.10 		\psfrag{N}[Bl]{\al Membrane}}}
+                                     
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\ip@strippath ...@inversepath {../\ip@inversepath 
+                                                  }\fi \def \@tempa {\ip@str...
+l.10 		\psfrag{N}[Bl]{\al Membrane}}}
+                                     
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Argument of \ip@strippath has an extra }.
+<inserted text> 
+                \par 
+l.10 		\psfrag{N}[Bl]{\al Membrane}}}
+                                     
+I've run across a `}' that doesn't seem to match anything.
+For example, `\def\a#1{...}' and `\a}' would produce
+this error. If you simply proceed now, the `\par' that
+I've just inserted will cause me to report a runaway
+argument that might be the root of the problem. But if
+your `}' was spurious, just type `2' and it will go away.
+
+Runaway argument?
+ \let \@tempa \ip@lastelement \let \ip@jobpath \ip@directpath \let \ip@directpa
+th \ETC.
+! Paragraph ended before \ip@strippath was complete.
+<to be read again> 
+                   \par 
+l.10 		\psfrag{N}[Bl]{\al Membrane}}}
+                                     
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+! Extra }, or forgotten \endgroup.
+<recently read> }
+                 
+l.10 		\psfrag{N}[Bl]{\al Membrane}}}
+                                     
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+) (C3Results.tex [7]
+
+! Package inversepath Error: No absolute path specified.
+
+See the inversepath package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.15 		\psfrag{L}[Bc]{\al\hspace{2mm}Luminance}}
+                                                
+You must declare the file path of the main file with \absolutepath{} to be able
+ to resolve back-relative paths
+
+! Undefined control sequence.
+\ip@strippath ...dafter \ip@strippath \ip@jobpath 
+                                                  \@nil / \let \@tempa \ip@l...
+l.15 		\psfrag{L}[Bc]{\al\hspace{2mm}Luminance}}
+                                                
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> ...ip@directpath {\ip@directpath \@nil 
+                                                  /} \def \@tempa {\@nil }\i...
+l.15 		\psfrag{L}[Bc]{\al\hspace{2mm}Luminance}}
+                                                
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\ip@strippath ...@inversepath {../\ip@inversepath 
+                                                  }\fi \def \@tempa {\ip@str...
+l.15 		\psfrag{L}[Bc]{\al\hspace{2mm}Luminance}}
+                                                
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Runaway argument?
+ \let \@tempa \ip@lastelement \let \ip@jobpath \ip@directpath \let \ip@directpa
+th \ETC.
+! Paragraph ended before \ip@strippath was complete.
+<to be read again> 
+                   \par 
+l.19 
+     
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+
+! LaTeX Error: Not in outer par mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.22 \begin{figure}[htbp]
+                         
+You've lost some text.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+<../C3/SporeGermination7h.png, id=220, 321.2pt x 240.9pt>
+File: ../C3/SporeGermination7h.png Graphic file (type png)
+
+<use ../C3/SporeGermination7h.png>
+<../C3/SporeCluster8h.png, id=221, 321.2pt x 240.9pt>
+File: ../C3/SporeCluster8h.png Graphic file (type png)
+
+<use ../C3/SporeCluster8h.png>
+<../C3/Branching16h.png, id=222, 321.2pt x 240.9pt>
+File: ../C3/Branching16h.png Graphic file (type png)
+
+<use ../C3/Branching16h.png>
+<../C3/2ndGermTube16h.png, id=223, 321.2pt x 240.9pt>
+File: ../C3/2ndGermTube16h.png Graphic file (type png)
+
+<use ../C3/2ndGermTube16h.png>
+
+! LaTeX Error: Not in outer par mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.37 \begin{figure}[htbp]
+                         
+You've lost some text.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+<../C3/GerminationHighMag.png, id=229, 674.52pt x 505.89pt>
+File: ../C3/GerminationHighMag.png Graphic file (type png)
+
+<use ../C3/GerminationHighMag.png>
+<../C3/Septa1.png, id=230, 642.4pt x 481.8pt>
+File: ../C3/Septa1.png Graphic file (type png)
+ <use ../C3/Septa1.png>
+
+! LaTeX Error: Not in outer par mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.52 \begin{figure}[htbp]
+                         
+You've lost some text.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+<../C3/WetStainBW.png, id=232, 228.855pt x 171.64125pt>
+File: ../C3/WetStainBW.png Graphic file (type png)
+
+<use ../C3/WetStainBW.png>
+<../C3/DryStainBW.png, id=233, 228.855pt x 171.64125pt>
+File: ../C3/DryStainBW.png Graphic file (type png)
+
+<use ../C3/DryStainBW.png>
+<../C3/WetStainBin.png, id=234, 228.855pt x 171.64125pt>
+File: ../C3/WetStainBin.png Graphic file (type png)
+
+<use ../C3/WetStainBin.png>
+<../C3/DryStainBin.png, id=235, 228.855pt x 171.64125pt>
+File: ../C3/DryStainBin.png Graphic file (type png)
+
+<use ../C3/DryStainBin.png>
+
+! LaTeX Error: Not in outer par mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.67 \begin{table}[htbp]
+                        
+You've lost some text.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Not in outer par mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.92 \begin{figure}[htbp]
+                         
+You've lost some text.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! Package inversepath Error: No absolute path specified.
+
+See the inversepath package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.98 	}
+       
+You must declare the file path of the main file with \absolutepath{} to be able
+ to resolve back-relative paths
+
+! Undefined control sequence.
+\ip@strippath ...dafter \ip@strippath \ip@jobpath 
+                                                  \@nil / \let \@tempa \ip@l...
+l.98 	}
+       
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> ...ip@directpath {\ip@directpath \@nil 
+                                                  /} \def \@tempa {\@nil }\i...
+l.98 	}
+       
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Argument of \ip@strippath has an extra }.
+<inserted text> 
+                \par 
+l.98 	}
+       
+I've run across a `}' that doesn't seem to match anything.
+For example, `\def\a#1{...}' and `\a}' would produce
+this error. If you simply proceed now, the `\par' that
+I've just inserted will cause me to report a runaway
+argument that might be the root of the problem. But if
+your `}' was spurious, just type `2' and it will go away.
+
+Runaway argument?
+ \let \@tempa \ip@lastelement \let \ip@jobpath \ip@directpath \let \ip@directpa
+th \ETC.
+! Paragraph ended before \ip@strippath was complete.
+<to be read again> 
+                   \par 
+l.98 	}
+       
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+! Extra }, or forgotten \endgroup.
+<recently read> }
+                 
+l.98 	}
+       
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.99 	\\
+        
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inversepath Error: No absolute path specified.
+
+See the inversepath package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.103 	}
+        
+You must declare the file path of the main file with \absolutepath{} to be able
+ to resolve back-relative paths
+
+! Undefined control sequence.
+\ip@strippath ...dafter \ip@strippath \ip@jobpath 
+                                                  \@nil / \let \@tempa \ip@l...
+l.103 	}
+        
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> ...ip@directpath {\ip@directpath \@nil 
+                                                  /} \def \@tempa {\@nil }\i...
+l.103 	}
+        
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Argument of \ip@strippath has an extra }.
+<inserted text> 
+                \par 
+l.103 	}
+        
+I've run across a `}' that doesn't seem to match anything.
+For example, `\def\a#1{...}' and `\a}' would produce
+this error. If you simply proceed now, the `\par' that
+I've just inserted will cause me to report a runaway
+argument that might be the root of the problem. But if
+your `}' was spurious, just type `2' and it will go away.
+
+Runaway argument?
+ \let \@tempa \ip@lastelement \let \ip@jobpath \ip@directpath \let \ip@directpa
+th \ETC.
+! Paragraph ended before \ip@strippath was complete.
+<to be read again> 
+                   \par 
+l.103 	}
+        
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+! Extra }, or forgotten \endgroup.
+<recently read> }
+                 
+l.103 	}
+        
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+
+! LaTeX Error: Not in outer par mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.110 \begin{figure}[htbp]
+                          
+You've lost some text.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+<../C3/BurstTipsLoMag.png, id=239, 513.92pt x 385.44pt>
+File: ../C3/BurstTipsLoMag.png Graphic file (type png)
+
+<use ../C3/BurstTipsLoMag.png>
+<../C3/BurstTipHiMag.png, id=240, 513.92pt x 385.44pt>
+File: ../C3/BurstTipHiMag.png Graphic file (type png)
+
+<use ../C3/BurstTipHiMag.png>
+
+! LaTeX Error: Not in outer par mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.121 \begin{figure}[htbp]
+                          
+You've lost some text.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+<../C3/Acetate02.png, id=243, 481.8pt x 481.8pt>
+File: ../C3/Acetate02.png Graphic file (type png)
+ <use ../C3/Acetate02.png>
+<../C3/Acetate045.png, id=244, 481.8pt x 481.8pt>
+File: ../C3/Acetate045.png Graphic file (type png)
+ <use ../C3/Acetate045.png>
+<../C3/Nitrate08.png, id=245, 311.1625pt x 311.1625pt>
+File: ../C3/Nitrate08.png Graphic file (type png)
+
+<use ../C3/Nitrate08.png> <../C3/Nitrate30.png, id=246, 220.825pt x 220.825pt>
+File: ../C3/Nitrate30.png Graphic file (type png)
+
+<use ../C3/Nitrate30.png>
+
+! LaTeX Error: Not in outer par mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.134 \begin{figure}[htbp]
+                          
+You've lost some text.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+<../C3/Nitrate30HiMag.png, id=247, 331.2375pt x 331.2375pt>
+File: ../C3/Nitrate30HiMag.png Graphic file (type png)
+
+<use ../C3/Nitrate30HiMag.png>
+<../C3/MixedEster045HiMag.png, id=248, 331.2375pt x 331.2375pt>
+File: ../C3/MixedEster045HiMag.png Graphic file (type png)
+
+<use ../C3/MixedEster045HiMag.png>
+
+! LaTeX Error: Not in outer par mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.145 \begin{figure}[htbp]
+                          
+You've lost some text.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+<../C3/SubmergedSample.png, id=251, 501.875pt x 501.875pt>
+File: ../C3/SubmergedSample.png Graphic file (type png)
+
+<use ../C3/SubmergedSample.png> <../C3/CFWI.png, id=252, 397.485pt x 529.98pt>
+File: ../C3/CFWI.png Graphic file (type png)
+
+<use ../C3/CFWI.png>
+
+! LaTeX Error: Not in outer par mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.154 \begin{figure}[htbp]
+                          
+You've lost some text.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+<../C3/CFWActiveTip.png, id=253, 401.5pt x 301.125pt>
+File: ../C3/CFWActiveTip.png Graphic file (type png)
+
+<use ../C3/CFWActiveTip.png>
+<../C3/CFWSeptation.png, id=254, 650.43pt x 487.8225pt>
+File: ../C3/CFWSeptation.png Graphic file (type png)
+
+<use ../C3/CFWSeptation.png>) (C3Discussion.tex) (C3Main.bbl
+Underfull \hbox (badness 3547) in paragraph at lines 25--30
+\OT1/cmr/m/n/12 mycelial pro-cesses,'' \OT1/cmr/m/it/12 Biotech-nol Adv\OT1/cmr
+/m/n/12 , vol. 22, no. 3, pp. 189--259, 2004,
+ []
+
+
+Underfull \hbox (badness 2564) in paragraph at lines 148--153
+\OT1/cmr/m/n/12 ``Ef-fect of wa-ter ac-tiv-ity and tem-per-a-ture on com-pet-in
+g abil-i-ties of com-
+ []
+
+)
+
+! LaTeX Error: \begin{figure} on input line 11 ended by \end{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.26 \end{document}
+                   
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+(C3Main.aux)
+! You can't use `\end' in internal vertical mode.
+\enddocument ... \endgroup \deadcycles \z@ \@@end 
+                                                  
+l.26 \end{document}
+                   
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+
+! LaTeX Error: \begin{figure} on input line 11 ended by \end{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.26 \end{document}
+                   
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+)
+! Emergency stop.
+<*> ...ave/Desktop/My*Dropbox/Thesis/C3/C3Main.tex
+                                                  
+*** (job aborted, no legal \end found)
+
+ 
+Here is how much of TeX's memory you used:
+ 9393 strings out of 95304
+ 127776 string characters out of 1183032
+ 280307 words of memory out of 1500000
+ 12361 multiletter control sequences out of 110000
+ 14725 words of font info for 56 fonts, out of 3000000 for 5000
+ 14 hyphenation exceptions out of 8191
+ 63i,15n,96p,1808b,588s stack positions out of 5000i,500n,10000p,200000b,50000s
+!  ==> Fatal error occurred, no output PDF file produced!

@@ -1,0 +1,11 @@
+This is pdfTeX, Version 3.1415926-1.40.9 (MiKTeX 2.7) (preloaded format=pdflatex 2010.2.12)  27 FEB 2010 13:54
+entering extended mode
+**C2Introduction
+(C2Introduction.tex
+LaTeX2e <2005/12/01>
+Babel <v3.8l> and hyphenation patterns for english, dumylang, nohyphenation, ge
+rman, ngerman, german-x-2008-06-18, ngerman-x-2008-06-18, french, loaded.
+! Undefined control sequence.
+l.1 \section
+            {Introduction}
+? 
